@@ -13,22 +13,23 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 26%;
     height: 560px;
     margin: 15px auto;
-    padding-top: 10px;
     border-radius: 7px;
     background-color: hsl(0, 0%, 12%);
 }
 
 .box-container {
-    padding-top: 25px;
-    text-align: center;
-
+   text-align: center;
 }
 
 .box-container img {
-    width: 23%;
+    width: 33%;
     border-radius: 50px;
 }
 
@@ -53,15 +54,12 @@ body {
 }
 
 .container-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   text-align: center;
     margin-top: 20px;
 }
 
 .container-btn button {
-    width: 81%;
+    width: 85%;
     height: 40px;
     margin-top: 12px;
     font-weight: 600;
