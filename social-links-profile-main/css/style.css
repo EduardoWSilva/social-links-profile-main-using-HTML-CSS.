@@ -85,7 +85,15 @@ body {
 }
 
 .attribution a {
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* TABLET */
+@media(max-width:900px) {
+    .container {
+        width: 50%;
+        margin:150px auto;
+    }
 }
 
 /* MOBILE */
